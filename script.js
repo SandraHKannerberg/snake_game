@@ -21,7 +21,7 @@ const gameBoard = document.getElementById('game-board')
 function main(currentTime) {
     if(gameOver) {
         if (confirm('You Lost. Press OK to restart')) {
-            window.location = '/' //Refresh the page
+            window.location = 'https://sandrahkannerberg.github.io/snake_game/' //Refresh the page
         }
         return //No refresh of the game
     }
