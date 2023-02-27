@@ -20,7 +20,10 @@ const gameBoard = document.getElementById('game-board')
 //A game-loop
 function main(currentTime) {
     if(gameOver) {
-        return alert('Game Over - You Lose')
+        if (confirm('You Lost. Press OK to restart')) {
+            window.location = '/' //Refresh the page
+        }
+        return //No refresh of the game
     }
 
     window.requestAnimationFrame(main)
