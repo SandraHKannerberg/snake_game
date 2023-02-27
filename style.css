@@ -18,7 +18,7 @@ body {
 }
 
 .snake {
-    background-color: blue;
+    background-color: rgb(77, 239, 77);
     border: .25vmin solid black;
 }
 
